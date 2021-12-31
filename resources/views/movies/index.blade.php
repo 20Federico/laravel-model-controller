@@ -1,3 +1,5 @@
-<h1>ciasoa</h1>
+<h1>Movies</h1>
 
-@dump($movies);
+@foreach ($movies as $movie)
+    @dump($movie)
+@endforeach
